@@ -1,3 +1,281 @@
 <resources>
-    <string name="app_name">Android-Merchant</string>
+    <string name="app_name">Shrimp Shell</string>
+    <string name="intro_title">Intro Duction</string>
+    <string name="introduction1">\t\t蝦殼飯店創立於2018年。從一個五人的軟體APP研發團隊開始，其目標是為了更好的客戶體驗。</string>
+    <string name="introduction2">\t\t蝦殼使用創新元素帶給客戶即時的回饋。</string>
+
+
+    <string name="txLogInWelcome">Welcome</string>
+    <string name="textLogEmail">Email or Account</string>
+    <string name="textLogInPassword">Password</string>
+    <string name="textLogJoin">Join</string>
+    <string name="textLogLogIn">Log In</string>
+    <string name="textMyProfile">My Profile</string>
+    <string name="textProfileName">Name</string>
+    <string name="textProfileEmail">Email</string>
+    <string name="textProfilePassword">Password</string>
+    <string name="textReenterPassword">Re-enter Password</string>
+    <string name="textProfileFemale">Female</string>
+    <string name="textProfileMale">Male</string>
+    <string name="textProfileBirthday">Birthday : </string>
+    <string name="textProfilePhone">Phone</string>
+    <string name="textProfileAddress">Address</string>
+    <string name="title_activity_manager_home">ManagerHomeActivity</string>
+    <string name="name">Name</string>
+    <string name="roomSize">Room Size(Square Meter)</string>
+    <string name="bed">Bed(Quantity)</string>
+    <string name="startTime">Start Time</string>
+    <string name="endTime">End Time</string>
+    <string name="submit">Submit</string>
+    <string name="textEmployeeProfile">Employee Profile</string>
+    <string name="all_rating">Rating</string>
+    <string name="rating">Rating</string>
+
+    <!--測試用字串-->
+    <string name="hello_employee_fragment">Hello employee fragment</string>
+    <string name="employeeCode">EmployeeCode</string>
+    <string name="employeeGender">Gender</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="add">Add</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="lastest_events">Latest Events</string>
+    <string name="rooms">Rooms</string>
+    <string name="location">Location</string>
+    <string name="login">Account Login</string>
+    <string name="about">About Us</string>
+
+
+    <string name="location_title">交通資訊</string>
+    <string name="event_title">活動優惠</string>
+    <string name="rp_title">房間預覽</string>
+    <string name="location_address">地址：320桃園市中壢區中大路300號</string>
+    <string name="location_phone">聯絡電話：03 425 7387</string>
+    <string name="location_email">連絡信箱：contact@shrimpshell.com.tw</string>
+    <string name="booking">預約房間</string>
+    <string name="profile">會員資料</string>
+    <string name="home">首頁</string>
+    <string name="login_title">會員登入</string>
+
+    <string name="first_day_selected">入住日期</string>
+    <string name="day_month_year">年 月 日</string>
+    <string name="last_day_selected">退房日期</string>
+    <string name="newbooking">立即預約房間</string>
+    <string name="roomName">房間名稱</string>
+    <string name="day">日</string>
+    <string name="month">月</string>
+    <string name="week">週</string>
+    <string name="adult">大人</string>
+    <string name="child">孩童</string>
+    <string name="adultnumber">2</string>
+    <string name="childnumber">0</string>
+    <string name="age">年齡</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="AgeArray">
+        <item>不到1歲</item>
+        <item>1歲</item>
+        <item>2歲</item>
+        <item>3歲</item>
+        <item>4歲</item>
+        <item>5歲</item>
+        <item>6歲</item>
+        <item>7歲</item>
+        <item>8歲</item>
+        <item>9歲</item>
+        <item>10歲</item>
+        <item>11歲</item>
+        <item>12歲</item>
+        <item>13歲</item>
+        <item>14歲</item>
+        <item>15歲</item>
+        <item>16歲</item>
+        <item>17歲</item>
+    </string-array>
+
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="firstday">日</string>
+    <string name="firstmonth">月</string>
+    <string name="firstweek">週</string>
+    <string name="lastday">日</string>
+    <string name="lastmonth">月</string>
+    <string name="lastweek">週</string>
+    <string name="lastyear">2018</string>
+    <string name="firstyear">2018</string>
+    <string name="chooseage">請選擇孩童年齡</string>
+    <string name="title_activity_room_choose">RoomChooseActivity</string>
+    <string name="roomChoose">選擇房間</string>
+    <string name="roomTypeName">海景標準雙人房</string>
+    <string name="roomTypeSize">35平方公尺</string>
+    <string name="roomTypeBed">一張雙人床</string>
+    <string name="roomTypeNoSmoking">禁煙</string>
+    <string name="roomTypeWifi">免費WiFi</string>
+    <string name="roomTypeMeal">含早餐</string>
+    <string name="roomTypePeople">最多可住</string>
+    <string name="roomTypePeopleAdult">3</string>
+    <string name="roomTypePeopleChild">1位孩童</string>
+    <string name="roomTypeLastA">剩</string>
+    <string name="roomTypeLastB">間</string>
+    <string name="roomTypeLastQuantity">3</string>
+    <string name="roomTypePriceN">NT$</string>
+    <string name="roomTypePrice">4,100</string>
+    <string name="roomTypeQTitle">數量</string>
+    <string name="roomTypeQuantity">1</string>
+    <string name="roomCheck">確 認 訂 房</string>
+    <string name="checkRoom">確認訂房</string>
+    <string name="roomQuantityName">數量</string>
+    <string name="roomQuantityName2">間</string>
+    <string name="changeQuantity">修改數量</string>
+    <string name="deletRoom">刪除房間</string>
+    <string name="sentReservation">送 出 訂 單</string>
+    <string name="roomTypePeopleB">位大人</string>
+
+
+    <string name="title_exit">Exit</string>
+    <string name="confirm_exit">Are you sure you want to exit?</string>
+
+
+    <!--消費明細 start-->
+    <string name="text_order_detail">Detail</string>
+    <string name="text_date">Check In Date</string>
+    <string name="text_room_type">Room Type</string>
+    <string name="text_meals">Meal Order</string>
+    <string name="text_discounted">Discount</string>
+    <string name="text_quantity">Quantity</string>
+    <string name="text_price">Total Amount</string>
+    <string name="text_order_number">Order ID</string>
+    <string name="text_result">Result</string>
+    <string name="text_order_meals">Add On</string>
+    <string name="text_discounted_detail">For this stay, you have earned</string>
+    <string name="text_discount">20% discount</string>
+    <string name="text_discount2">Discount Offer</string>
+    <string name="text_bfdiscount">Original Price NT$</string>
+    <string name="text_last_price">Amount after Discount would be </string>
+    <string name="text_tot_price">NT$</string>
+    <string name="text_checkout">Check Out</string>
+    <string name="textTitle">Processing</string>
+    <string name="textMessage">Please proceed to the front desk
+                               Thank you</string>
+    <string name="textOk">OK</string>
+    <!--消費明細 end-->
+
+    <string name="roomAdult">Adults</string>
+    <string name="roomChild">Children</string>
+    <string name="roomQuantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="msg_InsertFail">Fail to insert</string>
+    <string name="msg_InsertSuccess">Successfully inserted</string>
+    <string name="msg_NoNetwork">No Internet Connected</string>
+    <string name="roomPrice">Price</string>
+    <string name="msg_NameIsInvalid">Name cannot be empty</string>
+    <string name="msg_NoRoomsFound">Cannot find any room</string>
+    <string name="msg_UpdateFail">Fail to update</string>
+    <string name="msg_UpdateSuccess">Successfully updated</string>
+    <string name="remove">Remove</string>
+    <string name="msg_DeleteFail">Fail to Delete</string>
+    <string name="msg_DeleteSuccess">Successfully Deleted</string>
+    <string name="msg_LoadImageFail">Failed to load Image</string>
+    <string name="msg_LoadImageSuccess">Successfully load Image</string>
+    <string name="msg_NoProfileFound">No Profile Found</string>
+    <string name="MyProfileSetting">My Profile Setting</string>
+    <string name="msa_PasswordNoRight">Password Is Not Right</string>
+    <string name="msg_NoEventsFound">No Events found</string>
+    <string name="date_format">\"Please insert number in the follow order yyyy-MM-dd\"</string>
+    <string name="department">Department</string>
+    <string name="msg_NoEmployeesFound">No employees found</string>
+    <string name="sqrtmeter">How many Square meter?</string>
+    <string name="bedQuantity">How many beds?</string>
+    <string name="discount_label">Discount</string>
+    <string name="date_format_short">Format: yyyy-MM-dd</string>
+    <string name="customer">Customer</string>
+    <string name="employee">Employee</string>
+    <string name="employeeEditId">Employee ID</string>
+    <string name="employeeEditName">Employee Name</string>
+    <string name="employeeEditGender">Gender</string>
+    <string name="employeeEditEmail">Email</string>
+    <string name="employeeEditDept">Department</string>
+
+    <string name="addBed">是否加床</string>
+    <string name="roomPriceName">NT$</string>
+    <string name="roomTypeEventString">活動期間折扣價</string>
+    <string name="r1">5</string>
+    <string name="r2">5</string>
+    <string name="r3">3</string>
+    <string name="r4">2</string>
+    <string name="r5">3</string>
+    <string name="r6">3</string>
+    <string name="r7">1</string>
+    <string name="r8">1</string>
+    <string name="r9">1</string>
+    <string name="r10">1</string>
+    <string name="r1Price">4100</string>
+    <string name="r2Price">3800</string>
+    <string name="r3Price">5300</string>
+    <string name="r4Price">4900</string>
+    <string name="r5Price">5800</string>
+    <string name="r6Price">5400</string>
+    <string name="r7Price">7000</string>
+    <string name="r8Price">6800</string>
+    <string name="r9Price">8000</string>
+    <string name="r10Price">7600</string>
+
+    <string name="id_InstantSuccess">Id add Success</string>
+    <string name="id_InstantFail">Id add Fail</string>
+
+
+    <!-- 即時服務 -->
+    <string name="textStatusService">服務進度</string>
+    <string name="textInstantService">客房服務</string>
+    <string name="instant">即時服務</string>
+    <string name="textCallService">聯絡櫃檯</string>
+    <string name="dinlingCount">數量</string>
+    <string name="btDinling">確認送出</string>
+    <string name="roomServiceCount">數量</string>
+    <string name="btRoomService">確認送出</string>
+    <string name="trafficCount">人數</string>
+    <string name="btTraffic">確認送出</string>
+    <string name="textRoomService">客房服務</string>
+    <string name="textDinlingService">點餐服務</string>
+    <string name="textTrafficService">接送服務</string>
+    <string name="title_activity_acacac">ACACAC</string>
+    <string name="title_activity_instant">InstantActivity</string>
+    <string name="title_activity_status_service">StatusServiceActivity</string>
+    <string name="title_activity_employee_call_service">EmployeeCallServiceActivity</string>
+    <string name="title_activity_employee_dinling_service">EmployeeDinlingServiceActivity</string>
+    <string name="title_activity_employee_clean_service">EmployeeCleanServiceActivity</string>
+    <string name="title_activity_empolyee_room_service">EmpolyeeRoomServiceActivity</string>
+    <string name="msg_NoInstantFound">No Instant Found</string>
+    <string name="service_type_1">A餐</string>
+    <string name="service_type_2">B餐</string>
+    <string name="service_type_3">C餐</string>
+    <string name="service_type_4">機場接送</string>
+    <string name="service_type_5">車站接送</string>
+    <string name="service_type_6">高鐵接送</string>
+    <string name="service_type_7">清潔服務</string>
+    <string name="service_type_8">洗衣服務</string>
+    <string name="service_type_9">枕頭備品</string>
+    <string name="service_type_10">盥洗用具</string>
+    <string name="service_1">清潔服務</string>
+    <string name="service_2">房務服務</string>
+    <string name="service_3">餐點服務</string>
+    <string name="msg_NoCommentsFound">No Rating Found</string>
+    <string name="text_Exit">Exit App</string>
+    <string name="msg_WantToExit">是否確認登出？</string>
+    <string name="text_Yes">登出</string>
+    <string name="text_No">取消</string>
+
+
+    <string-array name="department_options">
+        <item id="1">Clean Service</item>
+        <item id="2">Room Service</item>
+        <item id="3">Meal Service</item>
+        <item id="4">Concierge Service</item>
+        <item id="5">Manager</item>
+    </string-array>
 </resources>
+
+
+

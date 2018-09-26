@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".ManagerPanel.AddEventActivity"
+        android:background="@drawable/employee_home_background">
+
+        <ImageView
+            android:id="@+id/ivEvent"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/events" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/name"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/etAddEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/description"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/etAddEventDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/discount_label"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/etAddEventDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edText"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/startTime"
+            android:textSize="25sp"/>
+        <DatePicker
+            android:id="@+id/etAddEventStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/endTime"
+            android:textSize="25sp"/>
+        <DatePicker
+            android:id="@+id/etAddEventEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="12dp">
+
+        <Button
+            android:id="@+id/btnAddEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btcolor"
+            android:text="@string/add"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

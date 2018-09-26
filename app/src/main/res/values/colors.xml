@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="lightBlue">#5574f7</color>
+    <color name="whiteBlue">#3FAEFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#666666</color>
+    <color name="greenBlue">#85BAC6</color>
+    <color name="red">#FF0000</color>
+
+    <color name="edText">#a2f1dbc5</color>
+    <color name="btcolor">#b4f4d6b8</color>
+    <color name="atBackground">#7fb2c1</color>
+    <color name="appBar">#805D42</color>
+    <color name="rvEven">#dceef2</color>
+
+    <color name="colorWhite">#81ffffff</color>
+    <color name="colorGray">#10888888</color>
+    <color name="colorMyProfileBackGround">#daedfd</color>
+
+    <color name="black">#000000</color>
+    <color name="tvBackground">#d7d7d7</color>
+    <!--<color name="red">#da004a</color>-->
+    <color name="btcheckout">#5F94D2</color>
+
+    <color name="yellow">#fded03</color>
+    <color name="orange">#FF9800</color>
 </resources>

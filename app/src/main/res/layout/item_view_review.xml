@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:padding="6dp"
+    card_view:cardBackgroundColor="#ffdddddd"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="6dp">
+
+    <RelativeLayout
+        android:id="@+id/rlReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_rating">
+
+        <TextView
+            android:id="@+id/tvRatingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="顧客姓名"/>
+
+        <TextView
+            android:id="@+id/ratingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvRatingName"
+            android:text="訂單編號"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/tvIdRoomReservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ratingText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvRatingName"
+            android:text="IdRoomReservation"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <RatingBar
+            android:id="@+id/rbCardStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvIdRoomReservation"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            style="?android:attr/ratingBarStyleSmall"/>
+
+        <TextView
+            android:id="@+id/tvRatingOpinion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/rbCardStar"
+            android:text="Opinion"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/llReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRatingOpinion"
+            android:layout_marginRight="12dp"
+            android:layout_alignLeft="@id/tvRatingOpinion">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <EditText
+                android:id="@+id/etRatingReview"
+                android:layout_width="5000dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="90dp"
+                android:hint="Review"
+                android:layout_marginBottom="20dp"
+                android:textColor="#555555" />
+
+                <ImageButton
+                    android:id="@+id/ibDelete"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/delete128"/>
+
+                <Button
+                    android:id="@+id/btReviewOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ibDelete"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentRight="true"
+                    android:text="確認回覆"/>
+
+             </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
